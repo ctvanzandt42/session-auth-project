@@ -25,3 +25,7 @@ app.get("/", (req, res) => {
     console.log(req.session);
     res.render("home");
 });
+
+app.get("/login", (req, res) => {
+    res.render("login");
+});
